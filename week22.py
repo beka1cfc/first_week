@@ -84,7 +84,7 @@ if(b<a) and (b<c) and (b<d):
 	print(b)
 if(c<a) and (c<b) and (c<d):
 	print(c)
-else:
+if(d<a) and (d<b) and (d<c):
 	print(d)
 
 
