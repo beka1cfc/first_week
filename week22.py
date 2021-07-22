@@ -142,3 +142,14 @@ elif a in green:
 	print("Зеленый")
 else:
 	print("Ошибка ввода")
+
+
+
+#алгоритм 1
+
+a = 1
+b = 2
+a = a + b
+b = a - b
+a = a - b
+print(a,b)
