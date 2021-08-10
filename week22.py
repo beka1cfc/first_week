@@ -6,7 +6,7 @@ operand = input("Что нужно сделать? ")
 b = float(input("Введите второе число: "))
 
 if operand == "+":
-	print("Результат: "+ str(a+b))
+	print("Результат: {0}".format(str(a + b)))
 elif operand == "-":
 	print("Результат: "+ str(a-b))
 elif operand == "/":
